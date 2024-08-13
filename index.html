@@ -59,12 +59,14 @@
         }
         .recent-articles {
             margin-top: 20px;
-            text-align: left;  /* 左对齐 */
+            text-align: left;  /* 确保左对齐 */
         }
         .recent-articles img {
             width: 33%;  /* 缩小图片大小为原来的三分之一 */
             height: auto;
             border-radius: 5px;
+            display: block;
+            margin-left: 0;  /* 确保左对齐 */
         }
         .recent-articles a {
             display: block;
@@ -72,6 +74,7 @@
             color: #333;
             text-decoration: none;
             font-weight: bold;
+            padding-left: 60px; /* 将标题向右移动更多 */
         }
     </style>
 </head>
